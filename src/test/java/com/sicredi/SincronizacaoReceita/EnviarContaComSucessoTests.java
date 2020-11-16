@@ -9,7 +9,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import com.sicredi.SincronizacaoReceita.util.ReceitaService;
 import com.sicredi.SincronizacaoReceita.util.ValidarEntradas;
 
-@SpringBootTest(classes = { SpringBatchApplication.class })
+@SpringBootTest(classes = { SpringBatchConfiguration.class })
 @RunWith(SpringRunner.class)
 public class EnviarContaComSucessoTests {
 
