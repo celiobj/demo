@@ -1,8 +1,15 @@
 package com.sicredi.SincronizacaoReceita.util;
 
+import java.time.Instant;
+
+import org.apache.log4j.Logger;
+
 public class ValidarEntradas {
 
-	public static String ValidarAgencia(String agencia) {
+	
+	static Logger logger = Logger.getLogger(ValidarEntradas.class);
+	
+	public String ValidarAgencia(String agencia) {
 		try {
 			Integer.parseInt(agencia);
 			if (agencia.length() == 4) {
@@ -11,13 +18,13 @@ public class ValidarEntradas {
 				return "";
 			}
 		} catch (NumberFormatException e) {
-			//System.out.println("Erro na validação da agência");
+			logger.info("Erro na validação da agência: "+agencia+" - "+ Instant.now());
 			return "";
 		}
 
 	}
 
-	public static String ValidarConta(String conta) {
+	public String ValidarConta(String conta) {
 		try {
 			Integer.parseInt(conta);
 			if (conta.length() == 6) {
@@ -26,28 +33,28 @@ public class ValidarEntradas {
 				return conta;
 			}
 		} catch (NumberFormatException e) {
-			//System.out.println("Erro na validação da conta");
+			logger.info("Erro na validação da conta: "+conta+" - "+ Instant.now());
 			return "";
 		}
 
 	}
 
-	public static String ValidarSaldo(String saldo) {
+	public String ValidarSaldo(String saldo) {
 		try {
 			Double.parseDouble(saldo);
 			return saldo;
 		} catch (NumberFormatException e) {
-			//System.out.println("Erro na validação do saldo");
+			logger.info("Erro na validação do saldo: "+saldo+" - "+ Instant.now());
 			return "";
 		}
 
 	}
 
-	public static String ValidarStatus(String status) {
+	public String ValidarStatus(String status) {
 		if (status.length() == 1) {
 			return status;
 		} else {
-			//System.out.println("Erro na validação do status");
+			logger.info("Erro na validação do status: "+status+" - "+ Instant.now());
 			return "";
 		}
 	}

@@ -8,10 +8,7 @@ import org.springframework.batch.core.configuration.annotation.EnableBatchProces
 import org.springframework.batch.core.configuration.annotation.JobBuilderFactory;
 import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
 import org.springframework.batch.core.launch.support.RunIdIncrementer;
-import org.springframework.batch.integration.async.AsyncItemProcessor;
-import org.springframework.batch.integration.async.AsyncItemWriter;
 import org.springframework.batch.item.ExecutionContext;
-import org.springframework.batch.item.ItemProcessor;
 import org.springframework.batch.item.file.FlatFileItemReader;
 import org.springframework.batch.item.file.FlatFileItemWriter;
 import org.springframework.batch.item.file.LineMapper;
@@ -29,10 +26,10 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import com.sicredi.SincronizacaoReceita.model.Conta;
 import com.sicredi.SincronizacaoReceita.processor.ContaItemProcessor;
 
-
 @EnableBatchProcessing
 @Configuration
-public class SpringBatchConfiguration {
+public class SpringBatchConfiguration{
+
 
 	@Autowired
 	public JobBuilderFactory jobBuilderFactory;
@@ -54,7 +51,7 @@ public class SpringBatchConfiguration {
 	@Bean
 	public FlatFileItemReader<Conta> reader() {
 		FlatFileItemReader<Conta> reader = new FlatFileItemReader<>();
-		reader.setResource(new FileSystemResource("C://file//contas.csv"));
+		reader.setResource(new FileSystemResource("File//contas.csv"));
 		reader.setEncoding("ISO-8859-3");
 		reader.setName("CSV-Reader");
 		reader.setLinesToSkip(1);
@@ -70,9 +67,7 @@ public class SpringBatchConfiguration {
 		lineTokenizer.setDelimiter(";");
 		lineTokenizer.setStrict(false);
 		lineTokenizer.setNames("agencia", "conta", "saldo", "status");
-
 		ContaFieldSetMapper contaFieldSetMapper = new ContaFieldSetMapper();
-
 		defaultLineMapper.setLineTokenizer(lineTokenizer);
 		defaultLineMapper.setFieldSetMapper(contaFieldSetMapper);
 
@@ -82,15 +77,10 @@ public class SpringBatchConfiguration {
 	@Bean
 	public FlatFileItemWriter<Conta> writer() {
 		FlatFileItemWriter<Conta> writer = new FlatFileItemWriter<Conta>();
-		writer.setResource(new FileSystemResource("C://file//local.csv"));
+		writer.setResource(new FileSystemResource("File//local.csv"));
 		writer.open(new ExecutionContext());
-		// writer.update(new ExecutionContext());
-		// writer.setShouldDeleteIfExists(true);
 		writer.setEncoding("ISO-8859-3");
 		writer.setName("CSV-Writer");
-		// writer.setForceSync(true);
-		// writer.setHeaderCallback(headerCallback);
-		// writer.setDelegate(itemWriter())
 		writer.setLineAggregator(new DelimitedLineAggregator<Conta>() {
 			{
 				setDelimiter(";");
@@ -105,45 +95,30 @@ public class SpringBatchConfiguration {
 	}
 
 	@Bean
-	public AsyncItemWriter<Conta> asyncWriter() {
-		AsyncItemWriter<Conta> asyncItemWriter = new AsyncItemWriter<>();
-		asyncItemWriter.setDelegate(writer());
-		return asyncItemWriter;
-	}
-
-	@Bean
 	public ContaItemProcessor processor() {
 		return new ContaItemProcessor();
 	}
 
 	@Bean
-	public AsyncItemProcessor<Conta, Conta> asyncProcessor() {
-		AsyncItemProcessor<Conta, Conta> asyncItemProcessor = new AsyncItemProcessor<>();
-		asyncItemProcessor.setDelegate(itemProcessor());
-		asyncItemProcessor.setTaskExecutor(taskExecutor());
-
-		return asyncItemProcessor;
-	}
-
-	@Bean
-	public ItemProcessor<Conta, Conta> itemProcessor() {
-		return (transaction) -> {
-			ContaItemProcessor c = new ContaItemProcessor();
-			//c.process()
-			return transaction;
-		};
-	}
-
-	@Bean
 	public Step step1() {
-		return stepBuilderFactory.get("step1").<Conta, Conta>chunk(10).reader(reader())
-				.processor(processor()).writer(writer()).taskExecutor(taskExecutor()).build();
+		return stepBuilderFactory
+				.get("step1")
+				.<Conta, Conta>chunk(10)
+				.reader(reader())
+				.processor(processor())
+				.writer(writer())
+				.taskExecutor(taskExecutor())
+				.build();
 	}
 
 	@Bean
 	public Job importarConta() {
-		return jobBuilderFactory.get("importarConta").incrementer(new RunIdIncrementer()).preventRestart().flow(step1())
-				.end().build();
+		return jobBuilderFactory
+				.get("importarConta")
+				.incrementer(new RunIdIncrementer())
+				.preventRestart()
+				.flow(step1())
+				.end()
+				.build();
 	}
-	
 }

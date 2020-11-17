@@ -14,27 +14,20 @@ import com.sicredi.SincronizacaoReceita.util.ValidarEntradas;
 public class EnviarContaComSucessoTests {
 
 	ReceitaService receitaService = new ReceitaService();
-	// @Autowired
-	// private ApplicationContext context;
-	// @Autowired
-	// private JobLauncherTestUtils jobLauncherTestUtils;
-
+	ValidarEntradas validar = new ValidarEntradas();
+	
 	@Test
-	public void testBeans() throws Exception {
-		// SpringBatchConfiguration springBatchConfiguration =
-		// context.getBean(SpringBatchConfiguration.class);
-		// Assert.assertNotNull(springBatchConfiguration);
-
-		// JobExecution jobExecution = jobLauncherTestUtils.launchStep("step1");
+	public void testeConta() throws Exception {
+		
 		String agencia = "1111";
 		String conta = "111111";
 		String saldo = "34,2";
 		String status = "B";
 		Assert.assertEquals(true,
-				receitaService.atualizarConta(ValidarEntradas.ValidarAgencia(agencia),
-						ValidarEntradas.ValidarConta(conta.replace("-", "")),
-						Double.parseDouble(ValidarEntradas.ValidarSaldo(saldo.replace(',', '.'))),
-						ValidarEntradas.ValidarStatus(status)));
+				receitaService.atualizarConta(validar.ValidarAgencia(agencia),
+						validar.ValidarConta(conta.replace("-", "")),
+						Double.parseDouble(validar.ValidarSaldo(saldo.replace(',', '.'))),
+						validar.ValidarStatus(status)));
 	}
 
 }

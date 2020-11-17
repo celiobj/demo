@@ -10,19 +10,20 @@ A aplicação roda seguindo os passos abaixo, foi implementado o conceito de spr
 Windows:
 
 No terminal de comando:
-clonar o projeto na pasta c:\
-cd c:\
-mkdir file
-cd file
-copiar os arquivos:
-contas.csv
+clonar o projeto uma pasta preferida, adotaremos a pasta "demo"
+cd demo
+Na pasta File, estarão os arquivos:
+conta.csv
 local.csv
+Na pasta Logs, estará o log da aplicação.
 
 ## Usage example
 
-No prompt de comando irá listando todos os resultados das exportações
+No arquivo de log irá listando todos os resultados das exportações
 
 ## Development setup
 
+Entrar na pasta "target"
+cd target
 executar o comando
 java -jar SincronizacaoReceita-0.0.1-SNAPSHOT.jar

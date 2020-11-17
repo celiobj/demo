@@ -1,10 +1,9 @@
-com\sicredi\SincronizacaoReceita\ContaFieldSetMapper.class
-com\sicredi\SincronizacaoReceita\SpringBatchApplication$1.class
-com\sicredi\SincronizacaoReceita\model\Conta.class
-com\sicredi\SincronizacaoReceita\SpringBatchApplication$1$1.class
 com\sicredi\SincronizacaoReceita\processor\ContaItemProcessor.class
+com\sicredi\SincronizacaoReceita\SpringBatchConfiguration$1$1.class
 com\sicredi\SincronizacaoReceita\util\ValidarEntradas.class
 com\sicredi\SincronizacaoReceita\DemoApplication.class
-com\sicredi\SincronizacaoReceita\SpringBatchApplication.class
-com\sicredi\SincronizacaoReceita\util\SincronizacaoReceita.class
+com\sicredi\SincronizacaoReceita\ContaFieldSetMapper.class
+com\sicredi\SincronizacaoReceita\SpringBatchConfiguration$1.class
+com\sicredi\SincronizacaoReceita\model\Conta.class
 com\sicredi\SincronizacaoReceita\util\ReceitaService.class
+com\sicredi\SincronizacaoReceita\SpringBatchConfiguration.class

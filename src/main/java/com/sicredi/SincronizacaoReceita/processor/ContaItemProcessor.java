@@ -1,18 +1,25 @@
 package com.sicredi.SincronizacaoReceita.processor;
 
+import java.time.Instant;
+
+import org.apache.log4j.Logger;
 import org.springframework.batch.item.ItemProcessor;
 
 import com.sicredi.SincronizacaoReceita.model.Conta;
 import com.sicredi.SincronizacaoReceita.util.ReceitaService;
 import com.sicredi.SincronizacaoReceita.util.ValidarEntradas;
 
+
 public class ContaItemProcessor implements ItemProcessor<Conta, Conta> {
 
 	ReceitaService receitaService = new ReceitaService();
+	ValidarEntradas validar = new ValidarEntradas();
 	Conta contaNova;
 
 	@Override
-	public  Conta process(Conta item) throws Exception {
+	public Conta process(Conta item) throws Exception {
+
+		Logger logger = Logger.getLogger(ContaItemProcessor.class);
 
 		if (item.getAgencia().equalsIgnoreCase("agencia")) {
 
@@ -20,28 +27,30 @@ public class ContaItemProcessor implements ItemProcessor<Conta, Conta> {
 
 		} else {
 			
-			String agencia = ValidarEntradas.ValidarAgencia(item.getAgencia());
-			String conta = ValidarEntradas.ValidarConta(item.getConta().replace("-", ""));
-			String saldo = ValidarEntradas.ValidarSaldo(item.getSaldo().replace(',', '.'));
-			String status = ValidarEntradas.ValidarStatus(item.getStatus());
-
-			if (receitaService.atualizarConta(agencia, conta, Double.parseDouble(saldo), status)) {
+			String agencia = validar.ValidarAgencia(item.getAgencia());
+			String conta = validar.ValidarConta(item.getConta().replace("-", ""));
+			String saldo = validar.ValidarSaldo(item.getSaldo().replace(',', '.'));
+			String status = validar.ValidarStatus(item.getStatus());
+			try {
+				if (receitaService.atualizarConta(agencia, conta, Double.parseDouble(saldo), status)) {
+					
+					String agenciaRetorno = agencia;
+					String contaRetorno = conta.substring(0, 5) + "-" + conta.substring(5);
+					String saldoRetorno = saldo.replace('.', ',');
+					String statusRetorno = status;
+					contaNova = new Conta(agenciaRetorno, contaRetorno, saldoRetorno, statusRetorno);
+					logger.info("Exportando a conta: " + contaRetorno + " - " + Instant.now());
+					
+				} else {
+					String contaRetorno = conta.substring(0, 5) + "-" + conta.substring(5);
+					logger.error("Erro na exportação da conta: " + contaRetorno + " - " + Instant.now());
+				}
 				
-				String agenciaRetorno = agencia;
-				String contaRetorno = conta.substring(0, 5) + "-" + conta.substring(5);
-				String saldoRetorno = saldo.replace('.', ',');
-				String statusRetorno = status;
-				contaNova = new Conta(agenciaRetorno, contaRetorno, saldoRetorno, statusRetorno);
-				System.out.println("Exportando a conta: " + contaRetorno);
-			
-			} else {
-				
-				String contaRetorno = conta.substring(0, 5) + "-" + conta.substring(5);
-				System.out.println("Erro na exportação da conta: " + contaRetorno);
-			
+			}catch (Exception e) {
+				logger.error("Dados inválidos: " + e.getMessage() + " - " + Instant.now());
 			}
 		}
 		return contaNova;
-		
+
 	}
 }

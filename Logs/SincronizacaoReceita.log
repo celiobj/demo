@@ -1,0 +1,141 @@
+2020-11-16 15:18:33 ERROR ContaItemProcessor:46 - Erro na exportação da conta: 13336-8 - 16/11/2020 15:18:33
+2020-11-16 15:18:33 ERROR ContaItemProcessor:46 - Erro na exportação da conta: 12226-8 - 16/11/2020 15:18:33
+2020-11-16 15:18:33 ERROR ContaItemProcessor:46 - Erro na exportação da conta: 40011-1 - 16/11/2020 15:18:33
+2020-11-16 15:18:33 ERROR ContaItemProcessor:46 - Erro na exportação da conta: 12228- - 16/11/2020 15:18:33
+2020-11-16 15:18:34 INFO  ContaItemProcessor:41 - Exportando a conta: 12226-8 - 16/11/2020 15:18:34
+2020-11-16 15:18:35 INFO  ContaItemProcessor:41 - Exportando a conta: 00321-2 - 16/11/2020 15:18:35
+2020-11-16 15:18:35 INFO  ContaItemProcessor:41 - Exportando a conta: 54001-2 - 16/11/2020 15:18:35
+2020-11-16 15:18:38 INFO  ContaItemProcessor:41 - Exportando a conta: 40011-1 - 16/11/2020 15:18:38
+2020-11-16 15:18:38 INFO  ContaItemProcessor:41 - Exportando a conta: 12226-8 - 16/11/2020 15:18:38
+2020-11-16 15:18:41 INFO  ContaItemProcessor:41 - Exportando a conta: 54001-2 - 16/11/2020 15:18:41
+2020-11-16 15:18:42 INFO  ContaItemProcessor:41 - Exportando a conta: 54001-2 - 16/11/2020 15:18:42
+2020-11-16 15:18:44 INFO  ContaItemProcessor:41 - Exportando a conta: 40011-1 - 16/11/2020 15:18:44
+2020-11-16 15:18:45 INFO  ContaItemProcessor:41 - Exportando a conta: 12226-8 - 16/11/2020 15:18:45
+2020-11-16 15:18:47 INFO  ContaItemProcessor:41 - Exportando a conta: 00321-2 - 16/11/2020 15:18:47
+2020-11-16 15:18:48 INFO  ContaItemProcessor:41 - Exportando a conta: 54001-2 - 16/11/2020 15:18:48
+2020-11-16 15:18:51 INFO  ContaItemProcessor:41 - Exportando a conta: 12226-8 - 16/11/2020 15:18:51
+2020-11-16 15:18:51 INFO  ContaItemProcessor:41 - Exportando a conta: 12225-6 - 16/11/2020 15:18:51
+2020-11-16 15:18:55 INFO  ContaItemProcessor:41 - Exportando a conta: 00321-2 - 16/11/2020 15:18:55
+2020-11-16 15:18:59 INFO  ContaItemProcessor:41 - Exportando a conta: 40011-1 - 16/11/2020 15:18:59
+2020-11-16 15:44:12 ERROR ContaItemProcessor:46 - Erro na exportação da conta: 12228- - 16/11/2020 15:44:12
+2020-11-16 15:44:12 ERROR ContaItemProcessor:46 - Erro na exportação da conta: 12226-8 - 16/11/2020 15:44:12
+2020-11-16 15:44:12 ERROR ContaItemProcessor:46 - Erro na exportação da conta: 13336-8 - 16/11/2020 15:44:12
+2020-11-16 15:44:15 INFO  ContaItemProcessor:41 - Exportando a conta: 12226-8 - 16/11/2020 15:44:15
+2020-11-16 15:44:16 INFO  ContaItemProcessor:41 - Exportando a conta: 40011-1 - 16/11/2020 15:44:16
+2020-11-16 15:44:17 INFO  ContaItemProcessor:41 - Exportando a conta: 00321-2 - 16/11/2020 15:44:17
+2020-11-16 15:44:19 INFO  ContaItemProcessor:41 - Exportando a conta: 54001-2 - 16/11/2020 15:44:19
+2020-11-16 15:44:20 INFO  ContaItemProcessor:41 - Exportando a conta: 12226-8 - 16/11/2020 15:44:20
+2020-11-16 15:44:23 INFO  ContaItemProcessor:41 - Exportando a conta: 54001-2 - 16/11/2020 15:44:23
+2020-11-16 15:44:24 INFO  ContaItemProcessor:41 - Exportando a conta: 00321-2 - 16/11/2020 15:44:24
+2020-11-16 15:44:25 INFO  ContaItemProcessor:41 - Exportando a conta: 12226-8 - 16/11/2020 15:44:25
+2020-11-16 15:44:28 INFO  ContaItemProcessor:41 - Exportando a conta: 40011-1 - 16/11/2020 15:44:28
+2020-11-16 15:44:29 INFO  ContaItemProcessor:41 - Exportando a conta: 54001-2 - 16/11/2020 15:44:29
+2020-11-16 15:44:31 INFO  ContaItemProcessor:41 - Exportando a conta: 12226-8 - 16/11/2020 15:44:31
+2020-11-16 15:44:32 INFO  ContaItemProcessor:41 - Exportando a conta: 54001-2 - 16/11/2020 15:44:32
+2020-11-16 15:44:34 INFO  ContaItemProcessor:41 - Exportando a conta: 00321-2 - 16/11/2020 15:44:34
+2020-11-16 15:44:35 INFO  ContaItemProcessor:41 - Exportando a conta: 40011-1 - 16/11/2020 15:44:35
+2020-11-16 15:44:36 INFO  ContaItemProcessor:41 - Exportando a conta: 40011-1 - 16/11/2020 15:44:36
+2020-11-16 15:44:38 INFO  ContaItemProcessor:41 - Exportando a conta: 12225-6 - 16/11/2020 15:44:38
+2020-11-16 15:46:10 ERROR ContaItemProcessor:46 - Erro na exportação da conta: 12226-8 - 16/11/2020 15:46:10
+2020-11-16 15:46:10 ERROR ContaItemProcessor:46 - Erro na exportação da conta: 13336-8 - 16/11/2020 15:46:10
+2020-11-16 15:46:10 ERROR ContaItemProcessor:46 - Erro na exportação da conta: 12228- - 16/11/2020 15:46:10
+2020-11-16 15:46:11 INFO  ContaItemProcessor:41 - Exportando a conta: 12226-8 - 16/11/2020 15:46:11
+2020-11-16 15:46:13 INFO  ContaItemProcessor:41 - Exportando a conta: 54001-2 - 16/11/2020 15:46:13
+2020-11-16 15:46:14 INFO  ContaItemProcessor:41 - Exportando a conta: 12226-8 - 16/11/2020 15:46:14
+2020-11-16 15:46:14 INFO  ContaItemProcessor:41 - Exportando a conta: 40011-1 - 16/11/2020 15:46:14
+2020-11-16 15:46:15 INFO  ContaItemProcessor:41 - Exportando a conta: 00321-2 - 16/11/2020 15:46:15
+2020-11-16 15:46:15 INFO  ContaItemProcessor:41 - Exportando a conta: 00321-2 - 16/11/2020 15:46:15
+2020-11-16 15:46:20 INFO  ContaItemProcessor:41 - Exportando a conta: 40011-1 - 16/11/2020 15:46:20
+2020-11-16 15:46:20 INFO  ContaItemProcessor:41 - Exportando a conta: 12225-6 - 16/11/2020 15:46:20
+2020-11-16 15:46:23 INFO  ContaItemProcessor:41 - Exportando a conta: 40011-1 - 16/11/2020 15:46:23
+2020-11-16 15:46:24 INFO  ContaItemProcessor:41 - Exportando a conta: 54001-2 - 16/11/2020 15:46:24
+2020-11-16 15:46:26 INFO  ContaItemProcessor:41 - Exportando a conta: 12226-8 - 16/11/2020 15:46:26
+2020-11-16 15:46:28 INFO  ContaItemProcessor:41 - Exportando a conta: 54001-2 - 16/11/2020 15:46:28
+2020-11-16 15:46:31 INFO  ContaItemProcessor:41 - Exportando a conta: 12226-8 - 16/11/2020 15:46:31
+2020-11-16 15:46:36 INFO  ContaItemProcessor:41 - Exportando a conta: 00321-2 - 16/11/2020 15:46:36
+2020-11-16 15:46:37 INFO  ContaItemProcessor:41 - Exportando a conta: 40011-1 - 16/11/2020 15:46:37
+2020-11-16 15:46:41 INFO  ContaItemProcessor:41 - Exportando a conta: 54001-2 - 16/11/2020 15:46:41
+2020-11-16 16:18:04 ERROR ContaItemProcessor:46 - Erro na exportação da conta: 13336-8 - 2020-11-16
+2020-11-16 16:18:04 ERROR ContaItemProcessor:46 - Erro na exportação da conta: 12226-8 - 2020-11-16
+2020-11-16 16:18:04 ERROR ContaItemProcessor:46 - Erro na exportação da conta: 12228- - 2020-11-16
+2020-11-16 16:18:06 INFO  ContaItemProcessor:41 - Exportando a conta: 40011-1 - 2020-11-16
+2020-11-16 16:18:07 INFO  ContaItemProcessor:41 - Exportando a conta: 12226-8 - 2020-11-16
+2020-11-16 16:18:08 INFO  ContaItemProcessor:41 - Exportando a conta: 00321-2 - 2020-11-16
+2020-11-16 16:18:09 INFO  ContaItemProcessor:41 - Exportando a conta: 54001-2 - 2020-11-16
+2020-11-16 16:18:09 INFO  ContaItemProcessor:41 - Exportando a conta: 12226-8 - 2020-11-16
+2020-11-16 16:18:12 INFO  ContaItemProcessor:41 - Exportando a conta: 54001-2 - 2020-11-16
+2020-11-16 16:18:13 INFO  ContaItemProcessor:41 - Exportando a conta: 40011-1 - 2020-11-16
+2020-11-16 16:18:13 INFO  ContaItemProcessor:41 - Exportando a conta: 12226-8 - 2020-11-16
+2020-11-16 16:18:15 INFO  ContaItemProcessor:41 - Exportando a conta: 00321-2 - 2020-11-16
+2020-11-16 16:18:16 INFO  ContaItemProcessor:41 - Exportando a conta: 12225-6 - 2020-11-16
+2020-11-16 16:18:17 INFO  ContaItemProcessor:41 - Exportando a conta: 00321-2 - 2020-11-16
+2020-11-16 16:18:19 INFO  ContaItemProcessor:41 - Exportando a conta: 40011-1 - 2020-11-16
+2020-11-16 16:18:21 INFO  ContaItemProcessor:41 - Exportando a conta: 40011-1 - 2020-11-16
+2020-11-16 16:18:24 INFO  ContaItemProcessor:41 - Exportando a conta: 54001-2 - 2020-11-16
+2020-11-16 16:18:27 INFO  ContaItemProcessor:41 - Exportando a conta: 12226-8 - 2020-11-16
+2020-11-16 16:18:29 INFO  ContaItemProcessor:41 - Exportando a conta: 54001-2 - 2020-11-16
+2020-11-16 16:19:58 ERROR ContaItemProcessor:47 - Erro na exportação da conta: 12228- - 16:19:58.380
+2020-11-16 16:19:58 ERROR ContaItemProcessor:47 - Erro na exportação da conta: 13336-8 - 16:19:58.386
+2020-11-16 16:19:58 ERROR ContaItemProcessor:47 - Erro na exportação da conta: 12226-8 - 16:19:58.386
+2020-11-16 16:20:01 INFO  ContaItemProcessor:42 - Exportando a conta: 12226-8 - 16:20:01.218
+2020-11-16 16:20:02 INFO  ContaItemProcessor:42 - Exportando a conta: 00321-2 - 16:20:02.333
+2020-11-16 16:20:03 INFO  ContaItemProcessor:42 - Exportando a conta: 12226-8 - 16:20:03.410
+2020-11-16 16:20:05 INFO  ContaItemProcessor:42 - Exportando a conta: 54001-2 - 16:20:05.304
+2020-11-16 16:20:05 INFO  ContaItemProcessor:42 - Exportando a conta: 40011-1 - 16:20:05.710
+2020-11-16 16:20:08 INFO  ContaItemProcessor:42 - Exportando a conta: 54001-2 - 16:20:08.561
+2020-11-16 16:20:09 INFO  ContaItemProcessor:42 - Exportando a conta: 12226-8 - 16:20:09.399
+2020-11-16 16:20:10 INFO  ContaItemProcessor:42 - Exportando a conta: 54001-2 - 16:20:10.206
+2020-11-16 16:20:12 INFO  ContaItemProcessor:42 - Exportando a conta: 00321-2 - 16:20:12.027
+2020-11-16 16:20:12 INFO  ContaItemProcessor:42 - Exportando a conta: 00321-2 - 16:20:12.643
+2020-11-16 16:20:16 INFO  ContaItemProcessor:42 - Exportando a conta: 40011-1 - 16:20:16.314
+2020-11-16 16:20:16 INFO  ContaItemProcessor:42 - Exportando a conta: 12225-6 - 16:20:16.489
+2020-11-16 16:20:20 INFO  ContaItemProcessor:42 - Exportando a conta: 12226-8 - 16:20:20.073
+2020-11-16 16:20:21 INFO  ContaItemProcessor:42 - Exportando a conta: 40011-1 - 16:20:21.234
+2020-11-16 16:20:23 INFO  ContaItemProcessor:42 - Exportando a conta: 54001-2 - 16:20:23.998
+2020-11-16 16:20:28 INFO  ContaItemProcessor:42 - Exportando a conta: 40011-1 - 16:20:28.662
+2020-11-16 16:20:46 ERROR ContaItemProcessor:48 - Erro na exportação da conta: 13336-8 - 2020-11-16T16:20:46.207
+2020-11-16 16:20:46 ERROR ContaItemProcessor:48 - Erro na exportação da conta: 12226-8 - 2020-11-16T16:20:46.213
+2020-11-16 16:20:46 ERROR ContaItemProcessor:48 - Erro na exportação da conta: 12228- - 2020-11-16T16:20:46.214
+2020-11-16 16:20:50 INFO  ContaItemProcessor:43 - Exportando a conta: 40011-1 - 2020-11-16T16:20:50.422
+2020-11-16 16:20:50 INFO  ContaItemProcessor:43 - Exportando a conta: 12226-8 - 2020-11-16T16:20:50.701
+2020-11-16 16:20:51 INFO  ContaItemProcessor:43 - Exportando a conta: 00321-2 - 2020-11-16T16:20:51.158
+2020-11-16 16:20:54 INFO  ContaItemProcessor:43 - Exportando a conta: 54001-2 - 2020-11-16T16:20:54.207
+2020-11-16 16:20:54 INFO  ContaItemProcessor:43 - Exportando a conta: 54001-2 - 2020-11-16T16:20:54.649
+2020-11-16 16:20:56 INFO  ContaItemProcessor:43 - Exportando a conta: 54001-2 - 2020-11-16T16:20:56.068
+2020-11-16 16:20:56 INFO  ContaItemProcessor:43 - Exportando a conta: 12226-8 - 2020-11-16T16:20:56.504
+2020-11-16 16:20:58 INFO  ContaItemProcessor:43 - Exportando a conta: 00321-2 - 2020-11-16T16:20:58.173
+2020-11-16 16:20:58 INFO  ContaItemProcessor:43 - Exportando a conta: 12226-8 - 2020-11-16T16:20:58.350
+2020-11-16 16:20:59 INFO  ContaItemProcessor:43 - Exportando a conta: 00321-2 - 2020-11-16T16:20:59.799
+2020-11-16 16:21:00 INFO  ContaItemProcessor:43 - Exportando a conta: 12225-6 - 2020-11-16T16:21:00.299
+2020-11-16 16:21:02 INFO  ContaItemProcessor:43 - Exportando a conta: 40011-1 - 2020-11-16T16:21:02.344
+2020-11-16 16:21:03 INFO  ContaItemProcessor:43 - Exportando a conta: 40011-1 - 2020-11-16T16:21:03.844
+2020-11-16 16:21:06 INFO  ContaItemProcessor:43 - Exportando a conta: 12226-8 - 2020-11-16T16:21:06.246
+2020-11-16 16:21:09 INFO  ContaItemProcessor:43 - Exportando a conta: 54001-2 - 2020-11-16T16:21:09.599
+2020-11-16 16:21:12 INFO  ContaItemProcessor:43 - Exportando a conta: 40011-1 - 2020-11-16T16:21:12.984
+2020-11-16 16:33:18 ERROR ContaItemProcessor:49 - Erro na exportação da conta: 13336-8 - 2020-11-16T16:33:18.955
+2020-11-16 16:33:18 ERROR ContaItemProcessor:49 - Erro na exportação da conta: 12226-8 - 2020-11-16T16:33:18.955
+2020-11-16 16:33:18 ERROR ContaItemProcessor:49 - Erro na exportação da conta: 12228- - 2020-11-16T16:33:18.955
+2020-11-16 16:33:21 INFO  ContaItemProcessor:44 - Exportando a conta: 12226-8 - 2020-11-16T19:33:21.448Z
+2020-11-16 16:33:23 INFO  ContaItemProcessor:44 - Exportando a conta: 40011-1 - 2020-11-16T19:33:23.343Z
+2020-11-16 16:33:23 INFO  ContaItemProcessor:44 - Exportando a conta: 00321-2 - 2020-11-16T19:33:23.434Z
+2020-11-16 16:33:24 INFO  ContaItemProcessor:44 - Exportando a conta: 12226-8 - 2020-11-16T19:33:24.520Z
+2020-11-16 16:33:25 INFO  ContaItemProcessor:44 - Exportando a conta: 54001-2 - 2020-11-16T19:33:25.390Z
+2020-11-16 16:33:28 INFO  ContaItemProcessor:44 - Exportando a conta: 54001-2 - 2020-11-16T19:33:28.496Z
+2020-11-16 16:33:30 INFO  ContaItemProcessor:44 - Exportando a conta: 12226-8 - 2020-11-16T19:33:30.020Z
+2020-11-16 16:33:30 INFO  ContaItemProcessor:44 - Exportando a conta: 54001-2 - 2020-11-16T19:33:30.084Z
+2020-11-16 16:33:31 INFO  ContaItemProcessor:44 - Exportando a conta: 00321-2 - 2020-11-16T19:33:31.701Z
+2020-11-16 16:33:33 INFO  ContaItemProcessor:44 - Exportando a conta: 00321-2 - 2020-11-16T19:33:33.159Z
+2020-11-16 16:33:34 INFO  ContaItemProcessor:44 - Exportando a conta: 12225-6 - 2020-11-16T19:33:34.774Z
+2020-11-16 16:33:37 INFO  ContaItemProcessor:44 - Exportando a conta: 40011-1 - 2020-11-16T19:33:37.779Z
+2020-11-16 16:33:39 INFO  ContaItemProcessor:44 - Exportando a conta: 40011-1 - 2020-11-16T19:33:39.278Z
+2020-11-16 16:33:40 INFO  ContaItemProcessor:44 - Exportando a conta: 12226-8 - 2020-11-16T19:33:40.651Z
+2020-11-16 16:33:43 INFO  ContaItemProcessor:44 - Exportando a conta: 54001-2 - 2020-11-16T19:33:43.576Z
+2020-11-16 16:33:48 INFO  ContaItemProcessor:44 - Exportando a conta: 40011-1 - 2020-11-16T19:33:48.179Z
+2020-11-16 17:39:50 INFO  ValidarEntradas:21 - Erro na validação da agência: AAAA - 2020-11-16T20:39:50.079Z
+2020-11-16 17:43:23 INFO  ValidarEntradas:21 - Erro na validação da agência: AAAA - 2020-11-16T20:43:23.928Z
+2020-11-16 18:18:58 INFO  ValidarEntradas:21 - Erro na validação da agência: AAAA - 2020-11-16T21:18:58.479Z
+2020-11-16 18:20:47 INFO  ValidarEntradas:21 - Erro na validação da agência: AAAA - 2020-11-16T21:20:47.719Z
+2020-11-17 08:53:34 ERROR ContaItemProcessor:42 - Dados inválidos: null - 2020-11-17T11:53:34.860Z
+2020-11-17 08:53:34 ERROR ContaItemProcessor:48 - Dados inválidos: null - 2020-11-17T11:53:34.950Z
+2020-11-17 08:55:01 ERROR ContaItemProcessor:42 - Dados inválidos: null - 2020-11-17T11:55:01.689Z
+2020-11-17 08:55:01 ERROR ContaItemProcessor:48 - Dados inválidos: null - 2020-11-17T11:55:01.715Z
